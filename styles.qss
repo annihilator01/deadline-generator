@@ -1,0 +1,98 @@
+QMainWindow {
+    min-width: 1050px;
+    max-width: 1050px;
+    min-height: 300px;
+    max-height: 700px;
+}
+
+QLabel#info-label {
+    font-size: 15px;
+    font-style: normal;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QLabel#description {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+QLabel#subject-name {
+    font-size: 20px;
+}
+
+QLabel#subject-section {
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+QLabel#action-section {
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+QLabel#form-mode-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+    margin-bottom: 10px;
+}
+
+QPushButton#action {
+    padding: 7px;
+}
+
+QToolButton#deadline {
+    margin-top: 20px;
+}
+
+QToolButton::menu-indicator {
+    image: url($downArrowIcon);
+    height: 10px;
+    width: 10px;
+    subcontrol-position: center;
+}
+
+QLineEdit {
+    font-size: 20px;
+    padding: 8px;
+}
+
+DeadlineItem#is-active {
+    min-width: 90px;
+    max-width: 90px;
+}
+
+DeadlineItem#date {
+    min-width: 120px;
+    max-width: 120px;
+}
+
+DeadlineItem#name {
+    min-width: 400px;
+    max-width: 400px;
+}
+
+DeadlineItem#link {
+    min-width: 300px;
+    max-width: 300px;
+}
+
+DeadlineItem#link QLabel#info-label {
+    color: blue;
+}
+
+QFrame#subjects-frame {
+    margin: 15px;
+}
+
+QScrollArea {
+    background-color: transparent;
+    border: 1.5px solid rgba(102, 108, 117, 0.6);
+}
