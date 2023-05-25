@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/test/test.ui" />
-    <file url="file://$PROJECT_DIR$/test/test2.ui" />
-  </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (deadline-generator)" project-jdk-type="Python SDK" />
-</project>
